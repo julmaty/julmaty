@@ -1,92 +1,96 @@
-<h1 align="center">Yulia Matyunina</h1>
+<h1 align="center">Юлия Матюнина</h1>
 <p align="center">
-  Backend Developer | AI / ML Engineer | Hackathon Team Lead
+  Backend Developer | AI / ML Engineer | Team Lead на хакатонах
 </p>
 
 <p align="center">
-  Building backend systems, AI-powered tools and practical product prototypes
+  Разрабатываю backend-системы, AI-инструменты и прикладные продуктовые прототипы
 </p>
 
-## About me
+<p align="center">
+  <a href="./README.en.md">English version</a>
+</p>
 
-I am a backend developer with industrial experience in `Java`, `Spring`, `C#`, `.NET` and data-driven service development, and I also work on applied AI projects in `Python`: RAG systems, LLM-based tools, NLP/CV experiments and automation.
+## Обо мне
 
-I currently work at the engineering division of Rosatom, where I develop corporate systems and integration services, participate in architecture discussions, do code review, estimate tasks, and act as a deputy team lead in the integration team.
+Я backend-разработчик с промышленным опытом в `Java`, `Spring`, `C#`, `.NET` и разработке сервисов, работающих с данными. Параллельно занимаюсь прикладными AI-проектами на `Python`: `RAG`-системами, инструментами на базе `LLM`, задачами `NLP`, `Computer Vision` и автоматизацией.
 
-My background is strongly mathematical: I graduated from the Faculty of Mechanics and Mathematics at Lomonosov Moscow State University with honors and am now continuing there as a PhD student at the Department of Differential Equations.
+Сейчас я работаю в Инжиниринговом дивизионе Росатома, где занимаюсь корпоративными системами и интеграционными сервисами, участвую в архитектурных обсуждениях, делаю code review, оцениваю задачи и выполняю роль заместителя тимлида команды интеграции.
 
-## What I work with
+У меня сильная математическая база: я окончила механико-математический факультет МГУ имени М.В. Ломоносова с отличием и сейчас продолжаю обучение в аспирантуре кафедры дифференциальных уравнений.
+
+## С чем я работаю
 
 - Backend: `Java`, `Spring`, `C#`, `.NET`, `ASP.NET Core`, `Entity Framework Core`
-- Databases and data: `MySQL`, `PostgreSQL`, `SQL`, data migration, integration flows
+- Базы данных и работа с данными: `MySQL`, `PostgreSQL`, `SQL`, миграции данных, интеграционные потоки
 - AI / ML: `Python`, `LLM`, `RAG`, `NLP`, `Computer Vision`, `PyTorch`
-- Applied engineering: service automation, internal tools, parsing and indexing, product MVPs
-- Other: `Docker`, `Linux`, `Git`, `JavaScript`, `HTML`, `CSS`
+- Прикладная разработка: автоматизация сервисов, внутренние инструменты, парсинг и индексирование, продуктовые MVP
+- Другое: `Docker`, `Linux`, `Git`, `JavaScript`, `HTML`, `CSS`
 
-## Experience highlights
+## Ключевой опыт
 
-- Developed backend systems and integration flows for corporate document management and construction-related processes in Rosatom's engineering division
-- Built a multithreaded data migration mechanism that increased migration speed by more than `1000x` compared to the initial approach
-- Designed and implemented a RAG-based smart search system for a corporate portal with automatic indexing of site pages and files
-- Automated support workflows with `SQL` and `Python` scripts
-- Built the `Dobster` service integrator from scratch in `ASP.NET Core`, including architecture, business logic, chat, notifications and key platform functionality
+- Разрабатывала backend-системы и интеграционные потоки для корпоративного документооборота и процессов, связанных со строительством
+- Сделала многопоточный механизм миграции данных между системами, который ускорил перенос более чем в `1000x` по сравнению с исходным подходом
+- Спроектировала и реализовала `RAG`-систему умного поиска для корпоративного портала с автоматическим индексированием страниц и файлов
+- Автоматизировала задачи техподдержки с помощью `SQL`- и `Python`-скриптов
+- С нуля разработала интегратор услуг `Dobster` на `ASP.NET Core`, включая архитектуру, бизнес-логику, чат, уведомления и ключевой функционал платформы
 
-## Selected projects
+## Избранные проекты
 
-### Report delivery system for AtomDev
-A group of services built around report creation, storage and delivery.
+### Система доставки отчетов для AtomDev
+Группа сервисов, построенных вокруг создания, хранения и доставки отчетов.
 
-- [API-AtomDev](https://github.com/julmaty/API-AtomDev) - report viewing API and web interface
-- [API2-AtomDev](https://github.com/julmaty/API2-AtomDev) - report management, upload flow and admin-side logic
-- [Sender-AtomDev](https://github.com/julmaty/Sender-AtomDev) - scheduled sender service that transmits reports over TCP
-- [Receiver-AtomDev](https://github.com/julmaty/Receiver-AtomDev) - receiver service that accepts reports and stores files
+- [API-AtomDev](https://github.com/julmaty/API-AtomDev) - API и веб-интерфейс для просмотра отчетов
+- [API2-AtomDev](https://github.com/julmaty/API2-AtomDev) - управление отчетами, загрузка файлов и административная логика
+- [Sender-AtomDev](https://github.com/julmaty/Sender-AtomDev) - сервис отправки отчетов по расписанию через TCP
+- [Receiver-AtomDev](https://github.com/julmaty/Receiver-AtomDev) - сервис приема отчетов и сохранения файлов
 
-This group of repositories reflects how I work with multi-service backend architecture, scheduled jobs, transport between services and data flow design.
+Этот набор репозиториев хорошо показывает мой подход к многосервисной backend-архитектуре, фоновым задачам, взаимодействию между сервисами и проектированию потоков данных.
 
 ### [Viribus_Unitis](https://github.com/julmaty/Viribus_Unitis)
-A service platform with backend and frontend parts, request/response flows, tagging, notifications and deployment artifacts.
+Сервисная платформа с backend- и frontend-частями, маршрутами запросов и ответов, тегированием, уведомлениями и артефактами деплоя.
 
 ### [API_AtomHack](https://github.com/julmaty/API_AtomHack)
-A hackathon backend with user flows, domain entities, message history and AI-assisted features.
+Хакатонный backend с пользовательскими сценариями, доменными сущностями, историей сообщений и AI-функциями.
 
 ### [VK-mini-app-API](https://github.com/julmaty/VK-mini-app-API)
-Backend for a VK Mini App with task logic, user progress and model-assisted features.
+Backend для VK Mini App с логикой задач, прогрессом пользователя и model-assisted функциональностью.
 
 ### [Matting-Project](https://github.com/julmaty/Matting-Project)
-A computer vision project related to video matting. This work was developed as part of Deep Learning School and received the highest project score.
+Проект по компьютерному зрению, связанный с video matting. Эта работа была выполнена в рамках Deep Learning School и получила максимальную оценку за проект.
 
 ### [LLM-compressor](https://github.com/julmaty/LLM-compressor)
-An experimental LLM-oriented project connected with neural-network-based compression ideas. This work was also highly rated in the Deep Learning School track.
+Экспериментальный проект, связанный с `LLM` и идеями нейросетевого сжатия. Эта работа также была высоко оценена в рамках Deep Learning School.
 
 ### [Techarena-MSU](https://github.com/julmaty/Techarena-MSU)
-An algorithmic `C++` project focused on graph processing and optimization.
+Алгоритмический `C++`-проект, посвященный обработке графов и оптимизации.
 
-## Education and AI training
+## Образование и AI-подготовка
 
-- Lomonosov Moscow State University, Faculty of Mechanics and Mathematics, Department of Differential Equations, honors degree
-- PhD student at Lomonosov Moscow State University
-- Deep Learning School, MIPT - two first-degree diplomas in deep learning tracks
-- AI Agents for Data Scientists course - `LLM`, `RAG`, `MCP`, multi-agent systems
+- МГУ имени М.В. Ломоносова, механико-математический факультет, кафедра дифференциальных уравнений, диплом с отличием
+- Аспирантура МГУ имени М.В. Ломоносова
+- Deep Learning School ФПМИ МФТИ: два диплома I степени по направлениям deep learning
+- Курс по AI-агентам для DS-специалистов: `LLM`, `RAG`, `MCP`, мультиагентные системы
 
-## Hackathons and competitions
+## Хакатоны и соревнования
 
-I regularly work in hackathon teams as a captain, backend developer or algorithm engineer. A few recent results:
+Я регулярно участвую в хакатонах как капитан команды, backend-разработчик или инженер алгоритмов. Несколько результатов последних лет:
 
-- `1st place` - AtomSkills 2025
-- `1st place` - BIV-Challenge 2024
-- `Winner` - Yandex CodeRun Boost Challenge 2025
-- `2nd place` - BEST Hack 2025
-- `2nd place` - AtomHack 2024
-- `2nd place` - ViribusUnitis 2024
-- `2nd place` - Techarena Huawei 2024 and 2025
-- `Superfinalist` - TrueTechChamp MTS 2024
-- `Best Project Defense` nomination - VK Mini Apps ITMO 2024
+- `1 место` - AtomSkills 2025
+- `1 место` - BIV-Challenge 2024
+- `Победитель` - Yandex CodeRun Boost Challenge 2025
+- `2 место` - BEST Hack 2025
+- `2 место` - АтомХак 2024
+- `2 место` - ViribusUnitis 2024
+- `2 место` - Techarena Huawei 2024 и 2025
+- `Суперфиналист` - TrueTechChamp MTS 2024
+- `Номинация за лучшую защиту проекта` - VK Mini Apps ITMO 2024
 
-## Contact
+## Контакты
 
 - Email: `ymatyunina@yandex.ru`
 - GitHub: [julmaty](https://github.com/julmaty)
 
 ---
 
-I am especially interested in backend engineering, AI-powered products, integration-heavy systems and projects where a rough idea needs to become a working product quickly and cleanly.
+Больше всего мне интересны backend-разработка, AI-powered продукты, интеграционные системы и проекты, в которых нужно быстро и аккуратно превратить сырую идею в работающий продукт.
